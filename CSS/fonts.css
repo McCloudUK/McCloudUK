@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'blueHigh';
+	src: url('../Fonts/blue_highway_rg.otf');
+	font-weight: normal;
+	font-style: normal;
+    
+@font-face {
+	font-family: 'blueHigh';
+	src: url('../Fonts/blue_highway_bd.otf');
+	font-weight: bold;
+	font-style: normal;

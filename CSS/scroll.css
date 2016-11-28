@@ -1,0 +1,317 @@
+/*
+
+            GREEN: #39ff3e
+
+
+*/
+
+
+* {
+box-sizing: border-box;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    z-index: 10;
+}
+
+
+
+.content, body, nav {
+        margin: 0;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+}
+
+.content{
+      
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        font-family: blueHigh, Arial, sans-serif;
+}
+
+body {
+        overflow: hidden;
+        height: 100%;
+    
+}
+
+img {
+display: block;
+pointer-events: all;}
+
+
+header {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100px;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0, 0.95);
+        z-index: 10;
+        
+    
+}
+
+.mainMenuLeft, .mainMenuRight {
+        top: 0;
+        position: fixed;
+        width: 600px;
+        height: 100px;
+        transition: .2s;
+}
+.mainMenuLeft {
+    left: 250px;
+    
+}
+
+.mainMenuRight {
+    right: 5px;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#MLOne, #MLTwo, #MLThree, #MROne, #MRTwo, #MRThree {
+    overflow:
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    height: 100px;
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+      text-align: center;
+       
+    }
+#MLOne:hover, #MLTwo:hover, #MLThree:hover, #MROne:hover, #MRTwo:hover, #MRThree:hover {
+    color: #39ff3e;
+    cursor: pointer;
+}
+
+
+#MROne, #MRTwo, #MRThree {
+  height: 20px;
+    top: 15px;
+  
+    
+}
+#MLOne, #MLTwo, #MLThree{
+    padding: 0 10px;
+    top: 5px;
+ 
+}
+#MLOne {
+    top: 15px;
+}
+
+
+#MLTwo, #MRTwo {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    
+}
+
+
+
+
+
+.toggleHeader {
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    display: none;
+    transition: all .25s ease;
+    border: 4px double #39ff3e;
+    background: none;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.bar1, .bar2, .bar3 {
+    width: 70%;
+    height: 6px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 13px;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 6px) ;
+    transform: rotate(-45deg) translate(-10px, 18px) ;
+    margin-left: 8px;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -15px) ;
+    transform: rotate(45deg) translate(-8px, -15px) ;
+     margin-left: 8px;
+}
+
+    
+ 
+
+#logo { 
+        background-image: url(../Images/logo.png);
+        width: 200px;
+        height: 80px;
+        margin: 10px;
+        z-index: 111111;
+        position: fixed;
+        display: block;
+}
+
+
+.subMenu{
+    width: 100%;
+    height: 300px;
+    background-color: green;
+    transition: 1s;
+    display:none;
+}
+
+.sub {
+     transition: 1s;
+display: block;}
+
+.subo {
+display: none;}
+
+
+
+
+
+/*  END OF HEADER  */ 
+
+/*HOME */
+/*HOME */
+/*HOME */
+/*HOME */
+
+#Home {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-image: url(../Images/bookOneAlt.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    max-width: 100%;
+   
+}
+
+.logoBIG {
+position: relative;
+width: 714px;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+top: 100px;
+background-image: url(../images/logoVIS.png);
+filter: blur(0px);
+}
+
+.textContainter {
+    width: 900px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 2px 10px black;
+    text-align: center;
+}
+
+
+/*END OF HOME */
+/*END OF HOME */
+/*END OF HOME */
+/*END OF HOME */
+
+
+#whatIs {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-image: url(../Images/bookFour.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    max-width: 100%;
+   
+}
+
+
+.textContainterWhat {
+    width: 1900px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 2px 10px black;
+    text-align: center;
+}
+
+
+/*END OF HOME */
+/*END OF HOME */
+/*END OF HOME */
+/*END OF HOME */
+
+
+#whatCan {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-image: url(../Images/bookThree.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: 1;
+    max-width: 100%;
+   
+}
+
+
+.textContainterWhatCan {
+    width: 1900px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 2px 10px black;
+    text-align: center;
+}
+
+
+/*END OF HOME */
+/*END OF HOME */
+/*END OF HOME */
+/*END OF HOME */
